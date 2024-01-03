@@ -1,5 +1,4 @@
 import React from "react";
-import { navLinks } from "../assets";
 import logo from "../assets/logo.svg";
 // import { logo } from "../assets";
 const Navbar = () => {
@@ -9,7 +8,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </a>
       <ul className="flex gap-5">
-        <li className="hover:text-cyan-400">
+        <li className="hover:text-blue-400">
           <a href="#skills">Skills</a>
         </li>
         <li>
