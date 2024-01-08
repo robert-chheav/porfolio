@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { buttons } from "../data";
 
 export const Buttons = () => {
-  const [btn, setBtn] = useState(buttons);
   return (
-    <div className="flex flex-wrap gap-3 mt-5">
+    <div className="flex flex-wrap gap-3 mt-5 w-screen">
       {buttons.map((button) => {
         console.log(button);
         return (
