@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section className="relative mt-10 sm:mx-24 grid grid-cols-2">
       <div className="col-span-1 col-start-1 col-end-2 row-span-2">
-        <h3>Soft skills</h3>
+        <h3>Hard skills</h3>
         <ul>
           <li>1</li>
           <li>1</li>
