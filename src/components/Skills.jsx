@@ -9,7 +9,7 @@ const Skills = () => {
         <HardSkills />
       </div>
       <div className="sm:sm:col-span-1 sm:row-span-1">
-        <h3 className="text-xl sm:text-3xl font-bold mb-3">Soft skills</h3>
+        <h3 className="text-xl sm:text-3xl font-bold mb-3 mt-5 sm:mt-0">Soft skills</h3>
         <ul>
           <li>2</li>
           <li>2</li>
@@ -20,7 +20,7 @@ const Skills = () => {
         </ul>
       </div>
       <div className="sm:col-span-1 sm:col-start-2 sm:col-end-3 sm:row-span-1">
-        <h3 className="text-xl sm:text-3xl font-bold mb-3">Languages</h3>
+        <h3 className="text-xl sm:text-3xl font-bold mb-3 mt-5 sm:mt-0">Languages</h3>
         <ul>
           <li>French</li>
           <li>English</li>
