@@ -5,7 +5,6 @@ export const Buttons = () => {
   return (
     <div className="flex flex-wrap gap-3 mt-5 w-screen">
       {buttons.map((button) => {
-        console.log(button);
         return (
           <div key={button.id}>
             <a
