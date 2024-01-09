@@ -3,12 +3,12 @@ import { HardSkills } from "./HardSkills";
 
 const Skills = () => {
   return (
-    <section className="relative mt-10 sm:mx-24 grid grid-cols-2 justify-items-center text-center">
-      <div className="col-span-1 col-start-1 col-end-2 row-span-2">
+    <section className="relative mt-10 sm:mx-24 sm:grid sm:grid-cols-2 justify-items-center text-center">
+      <div className="sm:col-span-1 sm:col-start-1 sm:col-end-2 sm:row-span-2">
         <h3 className="text-xl sm:text-3xl font-bold mb-3">Hard skills</h3>
         <HardSkills />
       </div>
-      <div className="col-span-1 row-span-1">
+      <div className="sm:sm:col-span-1 sm:row-span-1">
         <h3 className="text-xl sm:text-3xl font-bold mb-3">Soft skills</h3>
         <ul>
           <li>2</li>
@@ -19,7 +19,7 @@ const Skills = () => {
           <li>2</li>
         </ul>
       </div>
-      <div className="col-span-1 col-start-2 col-end-3 row-span-1">
+      <div className="sm:col-span-1 sm:col-start-2 sm:col-end-3 sm:row-span-1">
         <h3 className="text-xl sm:text-3xl font-bold mb-3">Languages</h3>
         <ul>
           <li>French</li>
