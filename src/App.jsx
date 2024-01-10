@@ -8,10 +8,12 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <Header/>
-    {/* <Blob /> */}
-    <Skills/>
+    <div className='relative flex flex-col max-w-7xl'>
+      <Navbar/>
+      <Blob />
+      <Header/>
+      <Skills/>
+    </div>
     </>
   )
 }

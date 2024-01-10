@@ -5,7 +5,7 @@ import { Buttons } from "./Buttons";
 const Header = () => {
   return (
     <header className="relative mt-10 sm:mx-24">
-      <Blob />
+      {/* <Blob /> */}
       <div className="grid grid-cols-2 sm:grid-cols-3">
         <div className="sm:col-span-2 flex flex-col justify-center">
           <span className="text-xl sm:text-3xl font-extrabold">
