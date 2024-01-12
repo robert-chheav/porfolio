@@ -11,12 +11,12 @@ const Skills = () => {
       <div className="sm:sm:col-span-1 sm:row-span-1">
         <h3 className="text-xl sm:text-3xl font-bold mb-3 mt-5 sm:mt-0">Soft skills</h3>
         <ul>
-          <li>2</li>
-          <li>2</li>
-          <li>2</li>
-          <li>2</li>
-          <li>2</li>
-          <li>2</li>
+          <li>Problem solving</li>
+          <li>Communication</li>
+          <li>Teamwork and Collaboration</li>
+          <li>Creativity</li>
+          <li>Analytical Thinking</li>
+          <li>Customer Focus</li>
         </ul>
       </div>
       <div className="sm:col-span-1 sm:col-start-2 sm:col-end-3 sm:row-span-1">
@@ -24,7 +24,7 @@ const Skills = () => {
         <ul>
           <li>French</li>
           <li>English</li>
-          <li></li>Chinese
+          <li>Chinese</li>
         </ul>
       </div>
     </section>

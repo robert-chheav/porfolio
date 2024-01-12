@@ -5,6 +5,7 @@ import Blob from './components/Blob'
 import Header from './components/Header'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <Blob />
       <Header/>
       <Skills/>
+      <Projects/>
       <Footer/>
     </div>
     </>
