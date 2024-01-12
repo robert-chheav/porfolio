@@ -7,7 +7,31 @@ const Projects = () => {
         Projects
       </h3>
 
-      <img src={PetApp} alt="home-screen-app" className="w-4/12	" />
+      <div className="flex">
+        <img src={PetApp} alt="home-screen-app" className="w-4/12" />
+        <ul>
+            <h4>PetLovers</h4>
+            <p>Report a missing or found pet (2023)</p>
+
+            <li>
+              <strong>Project aim :</strong>
+              Final project at Le Wagon, our team of four developed a
+              mobile-first web app using Rails, JavaScript, and CSS. The app
+              lets you report lost or missing pets effortlessly
+            </li>
+            <li>
+              <strong>My contribution :</strong>
+              Led a team of three students, implementing an agile SCRUM/KANBAN
+              framework for collaboration. Primarily focused on the front-end of
+              the project, but also made significant contributions to the
+              backend.
+            </li>
+            <li>
+              <strong>Tech stack :</strong>
+              Ruby on Rails, JavaScript (Stimulus) and Sass
+            </li>
+          </ul>
+      </div>
     </section>
   );
 };
