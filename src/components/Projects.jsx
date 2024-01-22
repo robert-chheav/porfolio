@@ -8,7 +8,7 @@ const Projects = () => {
       </h3>
 
       <div className="flex">
-        <img src={PetApp} alt="home-screen-app" className="w-4/12" />
+        <img src={PetApp} alt="home-screen-app" className="w-4/12 object-contain" />
         <ul>
             <h4 className="text-xl font-bold">PetLovers</h4>
             <p>Report a missing or found pet (2023)</p> <br/>

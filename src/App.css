@@ -17,8 +17,8 @@
 }
   .circle-red {
     position: absolute;
-    height: 40%;
-    width: 40%;
+    height: 33%;
+    width: 33%;
     border-radius: 50%;
     background: rgba(237, 0, 0, 0.7);
     filter: blur(100px);

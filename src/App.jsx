@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div className='relative flex flex-col max-w-7xl'>
+    <div className='relative flex flex-col max-w-5xl'>
       <Navbar/>
       <Blob />
       <Header/>
